@@ -62,104 +62,123 @@
      /* Activity 3 styles */ 
     .content3 {
         /* This is the parent of the activity 3 boxes. */
-         
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
     }
     .red3 {
     width: 100px; 
     height: 100px; 
     background-color: red; 
+    flex: 1 0 600px;
      } 
     .green3 {
     width: 100px; 
     height: 100px; 
     background-color: green;
-    
+    flex: 1 1 100px;
      } 
     .yellow3 {
     width: 100px; 
     height: 100px; 
     background-color: gold; 
-       
+    flex: 1 1 100px;  
      } 
     .blue3 {
     width: 100px;
     height: 100px; 
     background-color: blue;
-        
+    flex: 1 0 600px;  
      } 
      /* Activity 4 styles */ 
     .content4 {
         /* This is the parent of the activity 4 boxes. */
         height: 400px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
     }
     .red4 {
     width: 100px; 
     height: 100px; 
-    background-color: red; 
+    background-color: red;
+        flex: 0 1 202px;
      } 
     .green4 {
     width: 100px; 
     height: 100px; 
-    background-color: green; 
+    background-color: green;
+        flex: 0 1 202px;
     } 
     .yellow4 {
     width: 100px; 
     height: 100px; 
     background-color: gold; 
+        flex: 0 1 202px;
      } 
     .blue4 {
     width: 100px; 
     height: 100px; 
     background-color: blue; 
+        flex: 0 1 202px;
      } 
      /* Activity 5 styles */ 
      .content5 {
         /* This is the parent of the activity 5 boxes. */
          height: 400px;
+         display: flex;
+         flex-flow: row wrap;
+         
     }
     .red5 { 
-    width: 100px; 
-    height: 100px; 
+    width: 300px; 
+    height: 400px; 
     background-color: red; 
+    position: absolute;
      } 
     .green5 { 
     width: 100px; 
     height: 100px; 
     background-color: green; 
-
+        flex: 1 0 300px;
+        
      } 
     .yellow5 {
     width: 100px; 
     height: 100px; 
     background-color: gold; 
-
+        flex: 1 0 300px;
     } 
     .blue5 {
     width: 100px; 
     height: 100px; 
     background-color: blue; 
+        flex: 1 0 300px;
      } 
      /* Activity 6 styles */ 
      .content6 {
         /* This is the parent of the activity 6 boxes. */
     }
     .red6 {
-    width: 100px; 
+    width: 100%; 
     height: 100px; 
     background-color: red; 
     } 
     .green6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: green; 
+    width: 250px; 
+    height: 250px; 
+    background-color: green;
+        float:left;
      } 
     .yellow6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: gold; 
+    width: 100%; 
+    height: 100%; 
+    background-color: gold;
+        
     } 
     .blue6 {
-    width: 100px; 
+    width: 100%; 
     height: 100px; 
     background-color: blue; 
     } 
