@@ -8,25 +8,21 @@
     width: 100px; 
     height: 100px; 
     background-color: red;
-      
     } 
     .green1 {
     width: 100px; 
     height: 100px; 
-    background-color: green; 
-       
+    background-color: green;
     } 
     .yellow1 {
     width: 100px; 
     height: 100px; 
-    background-color: gold; 
-        
+    background-color: gold;   
     } 
     .blue1 {
     width: 100px; 
     height: 100px; 
-    background-color: blue; 
-    
+    background-color: blue;
     } 
      /* Activity 2 styles */ 
     .content2 {
@@ -129,7 +125,6 @@
          height: 400px;
          display: flex;
          flex-flow: row wrap;
-         
     }
     .red5 { 
     width: 300px; 
@@ -141,8 +136,7 @@
     width: 100px; 
     height: 100px; 
     background-color: green; 
-        flex: 1 0 300px;
-        
+        flex: 1 0 300px;  
      } 
     .yellow5 {
     width: 100px; 
