@@ -16,7 +16,7 @@
     border-style: solid;
     border-width: thin;
     border-color: #775300;
-    margin-left: 25px
+    margin-left: 25px;
     
 }
             nav{
@@ -35,11 +35,11 @@
              nav a{
                 color: #466E00;
                 font-size: 1.1em;
-                 padding: .5em 1em
+                 padding: .5em 1em;
             } 
 nav a:hover {
     background-color: #D4FB9D;
-    color: #82CE00
+    color: #82CE00;
 }
             .fullwidth{
                 width: 100%;
@@ -70,13 +70,15 @@ nav a:hover {
             .top-row-paragraph{
                 color: #776F00;
             }
-            #top-row, #middle-row {
+            #top-row, #middle-row, #bottom-row {
                 display: flex;
                 flex-flow: row wrap;
                 align-items: center;
+                justify-content: center;
             }
             #content{
-                width:960px;
+                width: 80%;
+                max-width: 960px;
                 margin: 0 auto;
             }
             #middle-row{
@@ -87,7 +89,7 @@ nav a:hover {
                 text-align: center;
                 width: 48%;
                 padding: 1.5em;
-                margin: 100px 200px 100px 200px
+                margin: 100px 200px 100px 200px;
             }
             footer{
                 background-color: #9CF701;
