@@ -62,7 +62,10 @@ nav a:hover {
                 color: #775300;
                 font-family: 'Permanent Marker', cursive;
                 margin: 1.5em .5em .5em .5em;
-                line-height: .5em;
+                line-height: 1em;
+                display: flex;
+                flex-flow: row wrap; 
+                justify-content: center;
             }
             p {
                 margin: .3em .5em .5em .5em;
@@ -70,7 +73,7 @@ nav a:hover {
             .top-row-paragraph{
                 color: #776F00;
             }
-            #top-row, #middle-row, #bottom-row {
+            #top-row, #middle-row, #bottom-row, #bottom-river{
                 display: flex;
                 flex-flow: row wrap;
                 align-items: center;
@@ -85,12 +88,18 @@ nav a:hover {
                 background-color: #9CF701;
                 padding: 1.5em;
             }
+.bottom-column{
+    text-align: center;
+}
             #bottom-row{
                 text-align: center;
                 width: 48%;
                 padding: 1.5em;
                 margin: 100px 200px 100px 200px;
             }
+#bottom-river{
+    padding: 1.5em;
+}
             footer{
                 background-color: #9CF701;
                 height: 55px;
