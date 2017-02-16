@@ -64,6 +64,12 @@
                 flex: 1 0 15em;
                 margin: .5em;
             }
+            .questions{
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: center;
+            }
             #top-row{
                 padding: 1.5em;
             }
@@ -120,6 +126,6 @@
             .question h2{
                 color: #466E00;
             }
-.question-end{
-    padding-bottom: 2em;
-}
+            .question-end{
+            padding-bottom: 2em;
+            }
