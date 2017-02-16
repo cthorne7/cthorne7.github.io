@@ -9,16 +9,16 @@
             body{
                 font-family: "Comic Sans MS", cursive, sans-serif;
             }
-#logo{
-    background-color: white;
-    position: relative;
-    width: 110px;
-    border-style: solid;
-    border-width: thin;
-    border-color: #775300;
-    margin-left: 25px;
+            #logo{
+                background-color: white;
+                position: relative;
+                width: 110px;
+                border-style: solid;
+                border-width: thin;
+                border-color: #775300;
+                margin-left: 25px;
     
-}
+            }
             nav{
                 background-color: #9CF701;
                 line-height: 3em;
@@ -37,10 +37,19 @@
                 font-size: 1.1em;
                  padding: .5em 1em;
             } 
-nav a:hover {
-    background-color: #D4FB9D;
-    color: #82CE00;
-}
+            nav a:hover {
+                background-color: #D4FB9D;
+                color: #82CE00;
+            }
+            .nav-home{
+                background-color: #D4FB9D;
+            }
+            .nav-rivers{
+                background-color:#D4FB9D;
+            }
+            .nav-faq{
+                background-color: #D4FB9D;
+            }
             .fullwidth{
                 width: 100%;
             }
@@ -59,7 +68,7 @@ nav a:hover {
                 padding: 1.5em;
             }
             h1,h2,h3,h4,h5,h6{
-                color: #775300;
+                color: #466E00;
                 font-family: 'Permanent Marker', cursive;
                 margin: 1.5em .5em .5em .5em;
                 line-height: 1em;
@@ -69,8 +78,7 @@ nav a:hover {
             }
             p {
                 margin: .3em .5em .5em .5em;
-            }
-            .top-row-paragraph{
+                text-indent: 30px;
                 color: #776F00;
             }
             #top-row, #middle-row, #bottom-row, #bottom-river{
@@ -85,21 +93,18 @@ nav a:hover {
                 margin: 0 auto;
             }
             #middle-row{
-                background-color: #9CF701;
+                background-color: #D4FB9D;
                 padding: 1.5em;
             }
-.bottom-column{
-    text-align: center;
-}
             #bottom-row{
                 text-align: center;
                 width: 48%;
                 padding: 1.5em;
                 margin: 100px 200px 100px 200px;
             }
-#bottom-river{
-    padding: 1.5em;
-}
+            #bottom-river{
+                padding: 1.5em;
+            }
             footer{
                 background-color: #9CF701;
                 height: 55px;
@@ -109,3 +114,12 @@ nav a:hover {
                 padding-right: 20px;
                 padding-left: 20px;
             }
+            .rivers h2{
+                color: #466E00;
+            }
+            .question h2{
+                color: #466E00;
+            }
+.question-end{
+    padding-bottom: 2em;
+}
